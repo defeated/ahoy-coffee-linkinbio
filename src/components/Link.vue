@@ -1,6 +1,6 @@
 <template>
   <p>
-    <a href="{{ link.url }}">
+    <a :href="link.url">
       {{ link.title }}
     </a>
   </p>
