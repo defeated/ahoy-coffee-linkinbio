@@ -3,7 +3,8 @@
   "scripts": {
     "dev": "vite",
     "build": "vite build",
-    "serve": "vite preview"
+    "serve": "vite preview",
+    "release": "cd dist/ && zip -r ../dist.zip ."
   },
   "dependencies": {
     "vue": "^3.0.5"
