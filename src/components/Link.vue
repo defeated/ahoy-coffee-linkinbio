@@ -1,9 +1,7 @@
 <template>
-  <p>
-    <a :href="link.url">
-      {{ link.title }}
-    </a>
-  </p>
+  <li>
+    <a :href="link.url" class="block px-6 py-4">{{ link.title }}</a>
+  </li>
 </template>
 
 <script setup>
