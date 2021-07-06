@@ -3,7 +3,7 @@
 </template>
 
 <script setup>
-import Link from './components/Link.vue'
+import Link from './Link.vue'
 
 const links = [
   {
