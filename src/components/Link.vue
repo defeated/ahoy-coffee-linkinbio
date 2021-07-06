@@ -5,17 +5,17 @@
 </template>
 
 <script setup>
-import { reactive } from 'vue'
-
 defineProps({
   link: Object,
 })
-
-const state = reactive({ count: 0 })
 </script>
 
 <style scoped>
 a {
-  color: #42b983;
+  color: #0C2560;
+  background: #FDE68A;
+}
+a:hover {
+  background: #FEF3C7;
 }
 </style>

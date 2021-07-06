@@ -2,8 +2,8 @@
   <div class="max-w-7xl mx-auto p-4 sm:px-6 lg:p-8">
     <div class="max-w-3xl mx-auto">
 
-      <nav class="bg-white shadow overflow-hidden rounded-md">
-        <ul class="divide-y divide-gray-200">
+      <nav class=" shadow overflow-hidden rounded-md">
+        <ul class="divide-y divide-yellow-300">
 
           <Link v-for="link in links" :key="links.indexOf(link)" :link="link" />
 
