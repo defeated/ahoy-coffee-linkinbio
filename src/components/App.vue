@@ -1,44 +1,44 @@
 <template>
-  <div class="max-w-7xl mx-auto p-4 sm:px-6 lg:p-8">
-    <div class="max-w-3xl mx-auto">
-
-      <nav class=" shadow overflow-hidden rounded-md">
-        <ul class="divide-y divide-yellow-300">
-
-          <Link v-for="link in links" :key="links.indexOf(link)" :link="link" />
-
-        </ul>
-      </nav>
-
-    </div>
-  </div>
+  <nav>
+    <ul class="mx-auto max-w-2xl py-4 px-8 -mt-14">
+      <Link v-for="link in links" :key="links.indexOf(link)" :link="link" />
+    </ul>
+  </nav>
 </template>
 
 <script setup>
 import Link from './Link.vue'
 
+import {
+  GlobeAltIcon, DocumentTextIcon, CameraIcon, CreditCardIcon
+} from '@heroicons/vue/outline'
+
 const links = [
   {
     title: "Ahoy Coffee Co.",
-    url: "https://www.ahoy.coffee/"
+    url: "https://www.ahoy.coffee/",
+    icon: GlobeAltIcon,
   },
   {
     title: "Blog",
-    url: "https://www.ahoy.coffee/blogs/news/"
+    url: "https://www.ahoy.coffee/blogs/news/",
+    icon: DocumentTextIcon,
   },
   {
     title: "Instagram",
-    url: "https://instagram.com/coffee.ahoy/"
+    url: "https://instagram.com/coffee.ahoy/",
+    icon: CameraIcon,
   },
   {
     title: "Venmo",
-    url: "https://account.venmo.com/u/Coffee-Ahoy"
-  }
+    url: "https://instagram.com/coffee.ahoy/",
+    icon: CreditCardIcon,
+  },
 ];
 
 // This starter template is using Vue 3 experimental <script setup> SFCs
 // Check out https://github.com/vuejs/rfcs/blob/script-setup-2/active-rfcs/0000-script-setup.md
 </script>
 
-<style>
+<style scoped>
 </style>
