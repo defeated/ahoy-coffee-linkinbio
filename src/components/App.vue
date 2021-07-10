@@ -1,7 +1,8 @@
 <template>
   <nav>
     <ul class="mx-auto max-w-2xl py-4 px-8 -mt-14">
-      <Link v-for="link in links" :key="links.indexOf(link)" :link="link" />
+      <Link v-for="link in links" :key="links.indexOf(link)"
+        :link="link" :icons="icons" />
     </ul>
   </nav>
 </template>
@@ -13,26 +14,30 @@ import {
   GlobeAltIcon, DocumentTextIcon, CameraIcon, CreditCardIcon
 } from '@heroicons/vue/outline'
 
+const icons = {
+  GlobeAltIcon, DocumentTextIcon, CameraIcon, CreditCardIcon
+}
+
 const links = [
   {
     title: "Ahoy Coffee Co.",
     url: "https://www.ahoy.coffee/",
-    icon: GlobeAltIcon,
+    icon: "GlobeAltIcon",
   },
   {
     title: "Blog",
     url: "https://www.ahoy.coffee/blogs/news/",
-    icon: DocumentTextIcon,
+    icon: "DocumentTextIcon",
   },
   {
     title: "Instagram",
     url: "https://instagram.com/coffee.ahoy/",
-    icon: CameraIcon,
+    icon: "CameraIcon",
   },
   {
     title: "Venmo",
     url: "https://instagram.com/coffee.ahoy/",
-    icon: CreditCardIcon,
+    icon: "CreditCardIcon",
   },
 ];
 
