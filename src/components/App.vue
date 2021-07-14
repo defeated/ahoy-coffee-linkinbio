@@ -1,15 +1,16 @@
 <template>
   <nav>
     <ul class="mx-auto max-w-2xl py-4 px-8 -mt-14">
-      <Link v-for="link in links" :key="links.indexOf(link)"
+
+      <link-item v-for="link in links" :key="links.indexOf(link)"
         :link="link" :icons="icons" />
+
     </ul>
   </nav>
 </template>
 
 <script setup>
-import Link from './Link.vue'
-
+import LinkItem from './LinkItem.vue'
 import {
   GlobeAltIcon, DocumentTextIcon, CameraIcon, CreditCardIcon
 } from '@heroicons/vue/outline'
