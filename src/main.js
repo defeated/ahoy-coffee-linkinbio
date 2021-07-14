@@ -1,6 +1,6 @@
 import { createApp } from 'vue'
-import App from './components/App.vue'
-import './main.css'
+import App from '@/components/App.vue'
+import '@/main.css'
 import {
   GlobeAltIcon, DocumentTextIcon, CameraIcon, CreditCardIcon
 } from '@heroicons/vue/outline'

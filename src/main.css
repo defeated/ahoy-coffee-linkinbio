@@ -8,6 +8,6 @@
 }
 
 body {
-  background: url(/src/assets/waves-light-opt.png) repeat-x 0 200px;
+  background: url(@/assets/waves-light-opt.png) repeat-x 0 200px;
   animation: wavy 10s ease-in-out infinite;
 }
