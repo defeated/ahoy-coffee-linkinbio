@@ -6,7 +6,7 @@
       hover:bg-red-100 hover:text-red-700
       active:bg-red-400 active:text-white">
 
-      <component :is="icons[link.icon]"
+      <component :is="link.icon"
         class="w-5 h-5 mr-4 inline align-text-bottom" />
 
       {{ link.title }}
@@ -16,8 +16,7 @@
 
 <script setup>
 defineProps({
-  link: Object,
-  icons: Object,
+  link: Object
 })
 </script>
 
