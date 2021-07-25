@@ -1,6 +1,4 @@
 {
-  "video": false,
-  "screenshotOnRunFailure": false,
   "component": {
     "componentFolder": "src",
     "testFiles": "**/*.cy.{js,jsx,ts,tsx}"
