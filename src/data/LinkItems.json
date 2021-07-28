@@ -1,12 +1,17 @@
 [
   {
-    "title": "Ahoy Coffee Co.",
+    "title": "Buy Fresh Roasted Coffee",
     "url": "https://www.ahoy.coffee/",
-    "icon": "GlobeAltIcon"
+    "icon": "ShoppingCartIcon"
   },
   {
     "title": "Blog",
     "url": "https://www.ahoy.coffee/blogs/news/",
+    "icon": "NewspaperIcon"
+  },
+  {
+    "title": "Cold Brew Recipe",
+    "url": "https://www.ahoy.coffee/blogs/news/cold-brew-recipe",
     "icon": "DocumentTextIcon"
   },
   {
