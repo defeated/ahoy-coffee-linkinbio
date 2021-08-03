@@ -1,5 +1,5 @@
 <template>
-  <AppHeader />
+  <app-header />
 
   <nav>
     <ul class="mx-auto max-w-2xl py-4 px-8 -mt-14">
