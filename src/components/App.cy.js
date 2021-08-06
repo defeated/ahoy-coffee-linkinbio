@@ -3,9 +3,10 @@ import App from '@/components/App.vue'
 
 describe('App', () => {
   it('renders list of links', () => {
-    mount(App)
+    const links = [1, 2]
+    mount(App, { propsData: { links }})
 
     cy.get('nav ul li')
-      .should('have.length', 5)
+      .should('have.length', links.length)
   })
 })
