@@ -1,20 +1,16 @@
 describe('visit link in bio', () => {
-  it('loads the home page', () => {
-    cy.visit('http://localhost:3000/')
+  beforeEach(() => {
+    cy.visit('/')
+  })
 
+  it('loads the home page', () => {
     cy.get('[alt*=logo]')
       .should('be.visible')
   })
 
-  it('shows the correct number of links', () => {
-    cy.visit('http://localhost:3000/')
-
+  it('shows the correct links', () => {
     cy.get('nav li')
       .should('have.length', 5)
-  })
-
-  it('shows the correct links', () => {
-    cy.visit('http://localhost:3000/')
 
     cy.contains('Buy Fresh Roasted Coffee')
       .and('have.attr', 'href', 'https://www.ahoy.coffee/')
