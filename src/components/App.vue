@@ -2,7 +2,7 @@
   <app-header />
 
   <nav>
-    <ul class="mx-auto max-w-2xl py-4 px-8 -mt-14">
+    <ul class="mx-auto sm:max-w-2xl py-4 px-2 sm:px-8 -mt-14">
 
       <link-item v-for="link in links" :key="links.indexOf(link)"
         :link="link" />
