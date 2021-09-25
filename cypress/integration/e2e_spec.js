@@ -10,11 +10,15 @@ describe('visit link in bio', () => {
 
   it('shows the correct links', () => {
     cy.get('nav li')
-      .should('have.length', 5)
+      .should('have.length', 6)
 
-    cy.contains('Buy Fresh Roasted Coffee')
-      .and('have.attr', 'href', 'https://www.ahoy.coffee/')
+    cy.contains('Light Roast Ethiopian Yirgacheffe')
+      .and('have.attr', 'href', 'https://ahoy.coffee/collections/frontpage/products/ethiopian-yirgacheffe')
       .and('have.attr', 'data-icon', 'ShoppingCartIcon')
+
+    cy.contains('Subscribe to newsletter')
+      .and('have.attr', 'href', 'https://ahoy.coffee/#ContactFooter')
+      .and('have.attr', 'data-icon', 'MailIcon')
 
     cy.contains('Blog')
       .and('have.attr', 'href', 'https://www.ahoy.coffee/blogs/news/')

@@ -1,8 +1,13 @@
 [
   {
-    "title": "Buy Fresh Roasted Coffee",
-    "url": "https://www.ahoy.coffee/",
+    "title": "Light Roast Ethiopian Yirgacheffe",
+    "url": "https://ahoy.coffee/collections/frontpage/products/ethiopian-yirgacheffe",
     "icon": "ShoppingCartIcon"
+  },
+  {
+    "title": "Subscribe to newsletter",
+    "url": "https://ahoy.coffee/#ContactFooter",
+    "icon": "MailIcon"
   },
   {
     "title": "Blog",
