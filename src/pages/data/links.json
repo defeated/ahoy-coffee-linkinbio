@@ -1,32 +1,32 @@
 [
   {
-    "title": "Light Roast Ethiopian Yirgacheffe",
-    "url": "https://ahoy.coffee/collections/frontpage/products/ethiopian-yirgacheffe",
-    "icon": "ShoppingCartIcon"
+    "title": "Medium Roast Nicaragua La Bastilla",
+    "url": "https://ahoy.coffee/collections/frontpage/products/nicaragua-la-bastilla",
+    "icon": "☕"
   },
   {
     "title": "Subscribe to newsletter",
     "url": "https://ahoy.coffee/#ContactFooter",
-    "icon": "MailIcon"
+    "icon": "📧"
   },
   {
     "title": "Blog",
     "url": "https://www.ahoy.coffee/blogs/news/",
-    "icon": "NewspaperIcon"
+    "icon": "📰"
   },
   {
     "title": "Cold Brew Recipe",
     "url": "https://www.ahoy.coffee/blogs/news/cold-brew-recipe",
-    "icon": "DocumentTextIcon"
+    "icon": "🥛"
   },
   {
     "title": "Instagram",
     "url": "https://instagram.com/coffee.ahoy/",
-    "icon": "CameraIcon"
+    "icon": "📷"
   },
   {
     "title": "Venmo",
     "url": "https://venmo.com/u/Coffee-Ahoy/",
-    "icon": "CreditCardIcon"
+    "icon": "💳"
   }
 ]
