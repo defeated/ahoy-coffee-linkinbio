@@ -1,0 +1,9 @@
+@keyframes wavy {
+  50%   { background-position: 75px 170px; }
+  100%  { background-position: 146px 200px; }
+}
+
+body {
+  background: url(../assets/waves-light-opt.png) repeat-x 0 200px;
+  animation: wavy 10s ease-in-out infinite;
+}
