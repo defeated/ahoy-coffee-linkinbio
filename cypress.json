@@ -1,8 +1,0 @@
-{
-  "baseUrl": "http://127.0.0.1:3000",
-  "reporter": "list",
-  "component": {
-    "componentFolder": "src",
-    "testFiles": "**/*.cy.{js,jsx,ts,tsx}"
-  }
-}
