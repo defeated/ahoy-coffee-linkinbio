@@ -33,16 +33,14 @@ import logo from './assets/logo-outline-opt.svg'
     <nav>
       <ul class="mx-auto sm:max-w-2xl py-4 px-2 sm:px-8 -mt-14">
 
-        {links.map(link => {
-          return(
-            <li>
-              <a href={link.url} target="_blank" rel="noopener noreferrer" class="block p-6 mb-2 shadow-md rounded-md opacity-95 bg-gray-100 text-blue-900 hover:bg-red-100 hover:text-red-700 active:bg-red-400 active:text-white">
-                {link.icon}
-                {link.title}
-              </a>
-            </li>
-          )
-        })}
+        {links.map(link => (
+          <li>
+            <a href={link.url} target="_blank" rel="noopener noreferrer" class="block p-6 mb-2 shadow-md rounded-md opacity-95 bg-gray-100 text-blue-900 hover:bg-red-100 hover:text-red-700 active:bg-red-400 active:text-white">
+              {link.icon}
+              {link.title}
+            </a>
+          </li>
+        ))}
 
       </ul>
     </nav>
