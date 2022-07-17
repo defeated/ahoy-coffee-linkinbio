@@ -1,0 +1,26 @@
+---
+const { product } = Astro.props;
+---
+
+<li>
+  <a href={product.url} target="_blank" rel="noopener noreferrer" class="md:flex block mb-2 shadow-md rounded-md opacity-95 overflow-hidden md:max-w-2xl bg-gray-100 text-blue-900 hover:bg-red-100 hover:text-red-700 active:bg-red-400 active:text-white">
+    <figure class="md:shrink-0">
+      <img class="h-48 w-full object-cover object-top md:h-full md:w-48" src={product.thumbnail} alt="Coffee thumbnail">
+    </figure>
+
+    <article class="p-6">
+      <p class="uppercase text-sm text-orange-600 font-semibold">
+        🔥 Now Roasting!
+      </p>
+
+      <p class="mt-1 text-lg font-medium hover:underline">
+        {product.title}
+        <span class="text-green-600 float-right text-base">{product.price}/ea</span>
+      </p>
+
+      <p class="mt-2 text-sm">
+        {product.description}
+      </p>
+    </article>
+  </a>
+</li>
