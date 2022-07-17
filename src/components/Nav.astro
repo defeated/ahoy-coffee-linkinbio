@@ -1,0 +1,12 @@
+---
+import links from '../data/links.json'
+import Link from '../components/Link.astro'
+---
+
+<nav>
+  <ul class="mx-auto sm:max-w-2xl py-4 px-2 sm:px-8 -mt-14">
+
+    {links.map(link => <Link link={link} />)}
+
+  </ul>
+</nav>
