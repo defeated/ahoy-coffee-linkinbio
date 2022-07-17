@@ -8,14 +8,14 @@ const { product } = Astro.props;
       <img class="h-48 w-full object-cover object-top md:h-full md:w-48" src={product.thumbnail} alt="Coffee thumbnail">
     </figure>
 
-    <article class="p-6">
-      <p class="uppercase text-sm text-orange-600 font-semibold">
-        🔥 Now Roasting!
+    <article class="font-semibold p-6">
+      <p>
+        <span class="uppercase text-sm text-orange-600">🔥 Now Roasting!</span>
+        <span class="float-right text-xs rounded-md px-2.5 py-0.5 bg-green-200 text-green-600">{product.price}/ea</span>
       </p>
 
-      <p class="mt-1 text-lg font-medium hover:underline">
+      <p class="mt-1 text-lg font-medium">
         {product.title}
-        <span class="text-green-600 float-right text-base">{product.price}/ea</span>
       </p>
 
       <p class="mt-2 text-sm">
