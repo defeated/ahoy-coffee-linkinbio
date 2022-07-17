@@ -1,10 +1,14 @@
 ---
+import products from '../data/products.json'
 import links from '../data/links.json'
+import Product from '../components/Product.astro'
 import Link from '../components/Link.astro'
 ---
 
 <nav>
   <ul class="mx-auto sm:max-w-2xl py-4 px-2 sm:px-8 -mt-14">
+
+    <Product product={products[0]} />
 
     {links.map(link => <Link link={link} />)}
 
