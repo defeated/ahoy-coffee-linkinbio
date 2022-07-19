@@ -12,5 +12,6 @@ jobs:
       - name: Cypress run
         uses: cypress-io/github-action@v4
         with:
+          quiet: true
           build: npm run build
           start: npm run preview

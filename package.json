@@ -6,7 +6,7 @@
     "start": "astro dev",
     "build": "astro build",
     "preview": "astro preview",
-    "test": "cypress run",
+    "test": "cypress run --quiet",
     "ci": "start-server-and-test preview http://localhost:3000 test"
   },
   "devDependencies": {
